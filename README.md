@@ -1,2 +1,1 @@
-# JavaScript_advanced_notes
-JavaScript 学习笔记
+# javascript学习笔记
