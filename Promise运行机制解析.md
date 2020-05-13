@@ -1,2 +1,0 @@
-Promise是一个构造函数，resolve,reject两个函数最为参数传递给执行函数，当调用时他的状态就为进行中，当resolve调用时状态改为完成，reject调用时状态更改为失败
-.then()方法反回了一个新的promise
