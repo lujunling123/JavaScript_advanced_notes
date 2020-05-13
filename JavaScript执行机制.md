@@ -96,10 +96,26 @@ VM940:38 1041
 
 Promise是一个构造函数，Promise 对象代表一个异步操作，有三种状态：Pending（进行中）、Resolved（已完成，又称 Fulfilled）和 Rejected（已失败），resolve,reject两个函数最为参数传递给执行函数，当resolve调用时状态改为完成，reject调用时状态更改为失败
 
-1. 基本api
 ![promise.png](https://github.com/lujunling123/JavaScript_advanced_notes/blob/master/img/promise.png "promise")
 
-.then()方法反回了一个新的promise
+1. 基本api
+Promise.resolve()
+Promise.reject()
+Promise.all()
+Promise.race()
+Promise.prototype.then()
+Promise.prototype.catch()
+Promise.prototype.finally()
 
+2. promise是如何实现的
+promise是一个构造函数
+
+class Promise {
+
+}
+
+
+.then()方法反回了一个新的promise
+// 待更新
 
 
